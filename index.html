@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="styles.css">
+      <style>
+          .alert{
+            color: #72353D;  
+            background-color: #EAD2D5; 
+            width: 50%;
+            padding: 20px;  
+            width: 40%;  
+            border-radius: 50px;  
+            border-width: 50px;  
+            border: solid rgb(14, 1, 1); 
+            rotate:  90deg; 
+            animation-name: example;
+            animation-duration: 4s;
+          } 
+          @keyframes example {
+            from {background-color: red;}
+            to {background-color: blue;}
+          }
+          .alert2{
+            color: #72353D;  
+            background-color: #EAD2D5; 
+            width: 50%;
+            padding: 20px;  
+            width: 40%;  
+            border-radius: 50px;  
+            border-width: 50px;  
+            border: solid rgb(14, 1, 1); 
+            rotate:  90deg; 
+            animation-name: example2;
+            animation-duration: 4s;
+          } 
+          @keyframes example2 {
+            from {background-color: blue;}
+            to {background-color: red;}
+          }
+      </style>
+    </head>
+    <body>
+      <div style="text-align: center;background-color: whitesmoke;margin: 30px;" id="main">
+          <h3 style="color: blue;" class="alert">Let's style this website!</h3>
+      </div>
+      <div>
+        <div style="height: 200px; background-color: red;" class="alert"></div>
+        <div style="height: 200px; background-color: blue;" class="alert2"></div>
+      </div>
+    </body>
+  </html>
+  
